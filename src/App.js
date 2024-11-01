@@ -12,8 +12,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className='body'>
-    <BrowserRouter basename="/portfolio"> 
-    <Navbar />
+      <Navbar />
+    <BrowserRouter> 
+    
       <Routes>
         <Route
           path="/"
