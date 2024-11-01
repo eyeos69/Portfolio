@@ -1,6 +1,7 @@
 import React from 'react';
 import proj1 from '../assets/projpic1.png';
 import proj2 from '../assets/projpic2.png';
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
@@ -17,11 +18,11 @@ const Work = () => {
               <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                 <span className='text-2x1 font-bold text-white tracking-wider'></span>
                 <div className='pt-8 text-center'>
-                  <a href='project1'>
+                  <Link to="project1">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Live
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -30,11 +31,11 @@ const Work = () => {
               <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                 <span className='text-2x1 font-bold text-white tracking-wider'></span>
                 <div className='pt-8 text-center'>
-                  <a href='project2'>
+                  <Link to="project1">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Live
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
