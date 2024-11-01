@@ -51,7 +51,7 @@ const Project2 = () => {
                 </div>
               </div>
 
-              <img className="mx-auto rounded-3xl py-8 md:py-0" src={form1} width={500} height={500}></img>
+              <img className="mx-auto rounded-3xl py-8 md:py-0" src={form1} width={300} height={300}></img>
 
             </div>
           </div>
@@ -72,7 +72,7 @@ const Project2 = () => {
                 </div>
               </div>
 
-              <img className="mx-auto rounded-3xl py-8 md:py-0" src={form2} width={500} height={500}></img>
+              <img className="mx-auto rounded-3xl py-8 md:py-0" src={form2} width={300} height={300}></img>
 
             </div>
           </div>
@@ -95,7 +95,7 @@ const Project2 = () => {
                 </div>
               </div>
 
-              <img className="mx-auto rounded-3xl py-8 md:py-0" src={form3} width={600} height={600}></img>
+              <img className="mx-auto rounded-3xl py-8 md:py-0" src={form3} width={500} height={500}></img>
 
             </div>
           </div>
@@ -157,12 +157,12 @@ const Project2 = () => {
                 <div className="my-auto mx-6">
                 <h2 className="text-3xl font-bold mb-4 primary-color">System Demo</h2>
                   <p className="text-base lg:text-lg">
-                  Attached below is a video recording, demonstrating on how to use the inventory management system.
+                  Attached below is a video recording, demonstrating on how to use the student subject management system.
                   </p>
                 </div>
               </div>
 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/ThK3dLr4aoI?si=vIPzzJJQJWfFGTq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/UEHxF957RiA?si=C5o75vDNiZxervcL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             </div>
           </div>
