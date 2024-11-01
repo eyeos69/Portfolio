@@ -28,8 +28,8 @@ function App() {
               </div>
             }
           />
-          <Route path="/project1" element={<Project1 />} />
-          <Route path="/project2" element={<Project2 />} />
+          <Route path="project1" element={<Project1 />} />
+          <Route path="project2" element={<Project2 />} />
         </Routes>
       </Router>
     </div>
