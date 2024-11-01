@@ -1,6 +1,7 @@
 import React from 'react'
 import heroimage from '../assets/portfoliopic.png'
 import { TypeAnimation } from 'react-type-animation'
+import { HashLink } from 'react-router-hash-link'
 
 const Hero = () => {
   return (
@@ -31,9 +32,9 @@ const Hero = () => {
             Greetings! Welcome to my portfolio website!
         </p>
         <div className='my-8'>
-          <a href="#contact" className='px-6 py-3 w-full rounded-x1 mr-4 border border-gray-400 hover:bg-gradient-to-br from-red-600 to-white text-white hover:border-none'>
+          <HashLink smooth to="/#contact" className='px-6 py-3 w-full rounded-x1 mr-4 border border-gray-400 hover:bg-gradient-to-br from-red-600 to-white text-white hover:border-none'>
             Contact
-          </a>
+          </HashLink>
         </div>
       </div>
     </div>
