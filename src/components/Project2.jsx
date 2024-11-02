@@ -15,7 +15,7 @@ const Project2 = () => {
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-start py-6 md:py-0">
               <div className="my-auto mx-6">
               <h1 className="text-4xl font-bold mb-4 primary-color">Project 2</h1>
-                <h2 className="text-3xl font-bold mb-4 primary-color">Takoyadon Inventory Management System</h2>
+                <h2 className="text-3xl font-bold mb-4 primary-color">Student Subject Management System</h2>
                 <p className="text-base lg:text-lg">
                   Generally, The system aims to design and develop an Inventory Management System of Takoyadon RFC Molino II
                   Specifically, it aims to:
