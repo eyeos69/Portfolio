@@ -1,6 +1,6 @@
 import React from 'react';
-import proj1 from '../assets/projpic1.png';
-import proj2 from '../assets/projpic2.png';
+import proj1 from '../assets/2.png';
+import proj2 from '../assets/3.png';
 
 const Work = () => {
   return (
