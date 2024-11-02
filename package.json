@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "new-branch-from-30 -d build"
+    "deploy": "new-branch-from-30 -b main -d build"
   },
   "eslintConfig": {
     "extends": [
