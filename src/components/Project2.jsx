@@ -4,6 +4,7 @@ import form2 from '../assets/1form2.png'
 import form3 from '../assets/1form3.png'
 import form4 from '../assets/1form4.png'
 import form5 from '../assets/1form5.png'
+import proj from '../assets/projpic1.png'
 
 const Project2 = () => {
   return (
@@ -29,6 +30,8 @@ const Project2 = () => {
                 </p>
               </div>
             </div>
+
+            <img className="mx-auto rounded-3xl py-8 md:py-0" src={proj} width={700} height={700}></img>
 
           </div>
         </div>
