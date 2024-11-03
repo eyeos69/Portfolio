@@ -31,7 +31,7 @@ const Navbar = () => {
                     <li className='p-5'><HashLink smooth to="/#about">About</HashLink></li>
                     <li className='p-5'><HashLink smooth to="/#work">Work</HashLink></li>
                     <li className='p-5'><HashLink smooth to="/#contact">Contact</HashLink></li>
-                    <li className='p-5'><HashLink smooth to="/">Home</HashLink></li>
+                    <li className='p-5'><HashLink smooth to="/hero">Home</HashLink></li>
                 </ul>
             </div>
         </div>
