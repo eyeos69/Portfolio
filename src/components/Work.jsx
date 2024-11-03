@@ -18,7 +18,7 @@ const Work = () => {
               <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                 <span className='text-2x1 font-bold text-white tracking-wider'></span>
                 <div className='pt-8 text-center'>
-                  <Link to='/#project1'>
+                  <Link to='Portfolio/#project1'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Live
                     </button>
@@ -31,7 +31,7 @@ const Work = () => {
               <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                 <span className='text-2x1 font-bold text-white tracking-wider'></span>
                 <div className='pt-8 text-center'>
-                  <Link to='/#project2'>
+                  <Link to='Portfolio/#project2'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Live
                     </button>
