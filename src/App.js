@@ -7,13 +7,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Project1 from "./components/Project1";
 import Project2 from "./components/Project2";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className='body'>
       
-      <HashRouter basename="/Portfolio">
+      <BrowserRouter basename="/Portfolio">
         <Navbar />
         <Routes>
           <Route
@@ -32,7 +32,7 @@ function App() {
           <Route path="project1" element={<Project1/>} />
           <Route path="project2" element={<Project2/>} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
