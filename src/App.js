@@ -20,12 +20,12 @@ function App() {
             path="/"
             element={
               <div>
-                <Hero />
-                <Skills />
-                <About />
-                <Work />
-                <Contact />
-                <Footer />
+                <Hero/>
+                <Skills/>
+                <About/>
+                <Work/>
+                <Contact/>
+                <Footer/>
               </div>
             }
           />
