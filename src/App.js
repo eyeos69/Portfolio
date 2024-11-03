@@ -29,8 +29,8 @@ function App() {
               </div>
             }
           />
-          <Route path="/project1" element={<Project1/>} />
-          <Route path="/project2" element={<Project2/>} />
+          <Route path="Portfolio/#project1" element={<Project1/>} />
+          <Route path="Portfolio/#project2" element={<Project2/>} />
         </Routes>
       </BrowserRouter>
     </div>
