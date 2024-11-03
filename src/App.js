@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='body'>
       
-      <BrowserRouter>
+      <BrowserRouter basename="/Portfolio">
         <Navbar />
         <Routes>
           <Route
