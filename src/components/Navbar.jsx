@@ -47,7 +47,9 @@ const Navbar = () => {
                     {/* Mobile Menu */}
                     <div
                         ref={menuRef}
-                        className={`${nav ? 'translate-x-0' : 'translate-x-full'} z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500 transform`}
+                        className={`fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500 ${
+                            nav ? 'left-0' : 'left-[-100%]'
+                        }`}
                     >
                         {/* Close icon inside the menu */}
                         <div className="p-4 flex justify-end">
@@ -69,5 +71,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
