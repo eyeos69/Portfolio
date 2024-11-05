@@ -159,7 +159,17 @@ const Project1 = () => {
                 </div>
               </div>
 
-              <iframe className="mx-auto rounded-3xl py-8 md:py-0" width="560" height="315" src="https://www.youtube.com/embed/ThK3dLr4aoI?si=vIPzzJJQJWfFGTq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div className="mx-auto rounded-3xl py-8 md:py-0 relative overflow-hidden" style={{ paddingTop: '56.25%' }}>
+                  <iframe
+                      className="absolute top-0 left-0 w-full h-full rounded-3xl"
+                      src="https://www.youtube.com/embed/ThK3dLr4aoI?si=vIPzzJJQJWfFGTq8"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                  ></iframe>
+              </div>
 
             </div>
           </div>
