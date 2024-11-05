@@ -47,10 +47,10 @@ const Navbar = () => {
                     {/* Mobile Menu */}
                     <div
                         ref={menuRef}
-                        className={nav ? 'z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed left-[-100%]'}
+                        className={`${nav ? 'translate-x-0' : 'translate-x-full'} z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500 transform`}
                     >
                         {/* Close icon inside the menu */}
-                        <div className="p-4 flex justify-end ease-in-out duration-500">
+                        <div className="p-4 flex justify-end">
                             <AiOutlineClose size={20} onClick={handleNav} className="cursor-pointer" />
                         </div>
 
