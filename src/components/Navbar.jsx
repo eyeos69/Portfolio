@@ -50,7 +50,7 @@ const Navbar = () => {
                         className={nav ? 'z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed left-[-100%]'}
                     >
                         {/* Close icon inside the menu */}
-                        <div className="p-4 flex justify-end">
+                        <div className="p-4 flex justify-end ease-in-out duration-500">
                             <AiOutlineClose size={20} onClick={handleNav} className="cursor-pointer" />
                         </div>
 
