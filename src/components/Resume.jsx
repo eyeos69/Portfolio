@@ -58,7 +58,7 @@ Nationality: Filipino
 Languages Spoken: Filipino, English`}
                 </pre>
 
-                <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download className="inline-block px-6 py-3 text-black font-extrabold bg-primary-color hover:bg-primary-color rounded-lg transition duration-200">
+                <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download className="inline-block bg-primary-color text-black font-bold py-3 px-6 rounded-xl hover:bg-gray-200 transition duration-300">
                   Download CV
                 </a>
 
