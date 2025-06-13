@@ -14,10 +14,16 @@ const About = () => {
                     <p className="text-base lg:text-lg">
                     Hi! I’m John Adrian Alvarez, a Bachelor of Science in Computer Science (BSCS) student at Cavite State University - Bacoor Campus. I’m passionate about expanding my knowledge in the field of computer science and continuously improving my skills. This website showcases the programming languages I’ve worked with and some of the projects I’ve completed so far. I’m always eager to learn more and explore new opportunities in the tech world.
                     </p>
+
+                    <p className="text-base lg:text-lg mt-4">
+                    But if I were to say who the real me is, I would say that I am just a boy who is eager to make his family proud and will do anything to make something of himself. To be happy and to live a life that is meaningful not just for myself, but for the lives of others and especially those who are dearest to me.
+                    </p>
+
                 </div>
             </div>
+            <div className="flex justify-center items-center">
             <img className="mx-auto rounded-3xl py-8 md:py-0" src={aboutImg} width={300} height={300}></img>
-
+            </div>
         </div>
     </div>
     </div>

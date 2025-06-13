@@ -4,6 +4,11 @@ import css from '../assets/css.png'
 import csharp from '../assets/csharp.png'
 import java from '../assets/java.png'
 import python from '../assets/python.png'
+import canva from '../assets/CANVALOGO.webp'
+import github from '../assets/githublogo.png'
+import photoshop from '../assets/pslogo.png'
+import vscode from '../assets/vscode logo.png'
+import godot from '../assets/godot.png'
 
 const Skills = () => {
   return (
@@ -11,7 +16,7 @@ const Skills = () => {
       <div class="py-10 mb-1 overflow-hidden md:pt-0 sm:pt-10 2xl:pt-10 relative bg-black/90 max-w-[1300px] mx-auto rounded-xl">
     <div className=' text-gray-400 md:h-[150x] max-w-[1200x] mx-auto grid grid-cols-6 place-items-center md:flex md:justify-between md:items-center'>
         <h2 className="primary-color text-xl md:text-4xl font-bold m-4">
-            My <br/> Tech <br/> Stack
+            Tools I <br/> Used In <br/> Projects
         </h2>
 
         <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
@@ -33,6 +38,26 @@ const Skills = () => {
         <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
             <img src={python} alt="" width={100} height={100}/>
             <p className='mt-2'>PYTHON</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+            <img src={canva} alt="" width={100} height={100}/>
+            <p className='mt-2'>CANVA</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+            <img src={github} alt="" width={100} height={100}/>
+            <p className='mt-2'>GITHUB</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+            <img src={photoshop} alt="" width={100} height={100}/>
+            <p className='mt-2'>PHOTOSHOP</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+            <img src={vscode} alt="" width={100} height={100}/>
+            <p className='mt-2'>VS CODE</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+            <img src={godot} alt="" width={100} height={100}/>
+            <p className='mt-2'>GODOT</p>
         </div>
 
     </div>
