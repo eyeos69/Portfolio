@@ -58,13 +58,10 @@ Nationality: Filipino
 Languages Spoken: Filipino, English`}
                 </pre>
 
-                <a 
-                  href="/resume.pdf"  // Change this to your actual file name and format
-                  download="resume.pdf"
-                  className="inline-block px-6 py-3 text-black font-extrabold bg-primary-color hover:bg-primary-color rounded-lg transition duration-200"
-                >
+                <a href={`${process.env.PUBLIC_URL}/CV_ALVAREZ-JOHN-ADRIAN.pdf`} download className="extrabold bg-primary-color hover:bg-primary-color rounded-lg transition duration-200">
                   Download CV
                 </a>
+
               </div>
             </div>
           </div>

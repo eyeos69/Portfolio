@@ -54,13 +54,10 @@ const Project4 = () => {
             <p className="text-lg mb-4">
               Wanna check out my recent work? It is a digital zine for our <strong>GNED09: Rizal Life and Works</strong> subject.
             </p>
-            <a
-              href="/ZINE_ALVAREZ-JOHN-ADRIAN_3-4.pdf"
-              download
-              className="inline-block bg-primary-color text-black font-bold py-3 px-6 rounded-xl hover:bg-gray-200 transition duration-300"
-            >
+            <a href={`${process.env.PUBLIC_URL}/ZINE_ALVAREZ-JOHN-ADRIAN_3-4.pdf`} download className="inline-block bg-primary-color text-black font-bold py-3 px-6 rounded-xl hover:bg-gray-200 transition duration-300">
               Download Zine
             </a>
+
           </div>
 
         </div>
