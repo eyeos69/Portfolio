@@ -17,15 +17,17 @@ const Project2 = () => {
               <div className="my-auto mx-6">
               <h2 className="text-3xl font-bold mb-4 primary-color">Student Subject Management System</h2>
                 <p className="text-base lg:text-lg">
-                  Generally, The system aims to design and develop an Inventory Management System of Takoyadon RFC Molino II
-                  Specifically, it aims to:
-                  Develop a digitalized system where employees can monitor the product received, stocks in an easier way.
-                  Develop a system that can accommodate the growth of the Takoyadon business, considering potential expansions and increased inventory demands.
-                  Develop the system to be accessible and user-friendly for Takoyadon staff involved in inventory management, minimizing training requirements and enhancing usability.
+                  Generally, the system aims to design and develop a Student Record Management System with 
+                  role-based access for both admin and non-admin users. Specifically, it aims to: Develop a 
+                  login and registration form where users can securely access or create their accounts; 
+                  Direct admin users to a homepage where they can view, add, update, and delete student and 
+                  subject records; Provide non-admin users access to a view-only form for reviewing records 
+                  without the ability to modify data; Include a confirmation form to handle application 
+                  exit or return to the system.
 
-                  Overall, the purpose of the system is to make Takoyadon’s inventory system digital, efficient and easy-to-use.
+                  Overall, the purpose of the system is to manage student records efficiently while ensuring accessibility, usability, and security for different user roles.
 
-                  System was made in Microsoft Visual Studio, C#.
+                  The system was made in Microsoft Visual Studio using C#.
                 </p>
               </div>
             </div>
